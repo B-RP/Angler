@@ -1,7 +1,7 @@
 # Angler
 <h3>Capabilities</h3>
 <p>Manipulate data from your terminal.</p>
-![A1](https://github.com/user-attachments/assets/410c92e6-d57b-4a6c-91a4-716042ee2e3a)
+<img src="https://github.com/user-attachments/assets/410c92e6-d57b-4a6c-91a4-716042ee2e3a">
 
 <p>Or write programs in text files</p>
 ![image](https://github.com/user-attachments/assets/f0a93410-7d31-4ae3-a3e2-a0410cfd4874)
