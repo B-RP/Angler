@@ -2,7 +2,7 @@
 <h3>Capabilities</h3>
 <p>Manipulate data from your terminal.</p>
 <img src="https://github.com/user-attachments/assets/410c92e6-d57b-4a6c-91a4-716042ee2e3a">
-
+<br>
 <p>Or write programs in text files</p>
 ![image](https://github.com/user-attachments/assets/f0a93410-7d31-4ae3-a3e2-a0410cfd4874)
 
