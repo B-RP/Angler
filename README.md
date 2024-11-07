@@ -5,6 +5,7 @@
 
 <p>Or write programs in text files</p>
 ![image](https://github.com/user-attachments/assets/f0a93410-7d31-4ae3-a3e2-a0410cfd4874)
+
 <p>The above code produces the following result:</p>
 ![Screenshot 2024-11-07 161640](https://github.com/user-attachments/assets/06571d78-e0d3-47ea-a505-14cd213f8ff2)
 
