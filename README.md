@@ -17,7 +17,7 @@
 </p>
   
 <h3>Capabilities</h3>
-<h6>Manipulate data from your terminal.</h6>
+<h4>Or write Angler programs in text files</h4>
 <img src="https://github.com/user-attachments/assets/410c92e6-d57b-4a6c-91a4-716042ee2e3a">
 <p></p>
 <h4>Or write programs in text files</h4>
@@ -39,5 +39,10 @@
       terminal demo above, the predicate "ByMinValueAtCol" is used by the Filter operation to determine which records should be kept. 
     </li>
   </ul>
+</p>
+
+<p>
+  To ensure that Angler is easy to update, it is written in Python. As seen below, Angler usese a regex lexer to tokenize programs,
+  a parser to create syntax trees, and an interpreter to run programs. 
 </p>
 <img src="https://github.com/user-attachments/assets/6f1048ce-7a07-4bf5-a2b5-fdb5cade1ea2">
