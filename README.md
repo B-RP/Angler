@@ -46,3 +46,38 @@
   a parser to create syntax trees, and an interpreter to run programs. 
 </p>
 <img src="https://github.com/user-attachments/assets/6f1048ce-7a07-4bf5-a2b5-fdb5cade1ea2">
+<h3>Grammar</h3>
+```
+<program> 			        ::=	<statements> EOF
+<statements> 			    ::=	<statement> <more_statements> | ε
+<more_statements>           ::= \n <statements> | ε
+<statement>			        ::=	<loop> | <varInit> | <operation> | ε
+
+<loop>                      ::= ForAll <identifiers> in <object> <object_member> : <statement>
+<varInit>	                ::=	identifier = <expression>
+<operation>			        ::=	<operator> <object> <object_member> <predicate> <optional_args>
+
+<expression>                ::= <expression_operation> | <object> | <predInit>
+<expression_operation>      ::= <operator> <object> <object_member> <predicate> <optional_args>
+
+<object>                    ::= identifier | <objInit> 
+<objInit>                   ::= <type>[<args>] | string_literal | number_literal
+
+<object_member>             ::= <type> <plural_modifier> | ε
+<plural_modifier>           ::= s | ε
+
+<predicate>                 ::= identifier | <predInit> | ε
+<predInit>                  ::= predicate_generator[<args>]
+
+<identifiers>               ::= identifier <more_identifiers>
+<more_identifiers>          ::= ,<identifiers> | ε
+
+<optional_args>             ::= [<args>] | ε
+<args>                      ::= <arg> <moreArgs>
+<more_args>                  ::= ,<args> | ε  
+<arg>                       ::= <object> | string_literal | number_literal 
+
+Tokens:
+<operator>                  ::= Filter | Remove | Count | Replace
+<type>                      ::= Table | Record | Field | Document | Line | Word | List | Text| Number | Character 
+```
