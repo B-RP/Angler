@@ -17,7 +17,7 @@
 </p>
   
 <h3>Capabilities</h3>
-<h4>Or write Angler programs in text files</h4>
+<h4>Manipulate data on your terminal</h4>
 <img src="https://github.com/user-attachments/assets/410c92e6-d57b-4a6c-91a4-716042ee2e3a">
 <p></p>
 <h4>Or write programs in text files</h4>
