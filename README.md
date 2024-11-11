@@ -1,11 +1,6 @@
 # Angler
 <h3>Introduction</h3>
 <p>
-  Give a researcher Python code and you feed him for a day. <br>
-  Give a researcher Angler, and you feed him until he needs something that isn't implemented yet. <br>
-  In that case, your job as a Python developer will be less redundant anyway. 
-</p>
-<p>
   Angler is a domain specific language for research. It was designed for teams with researchers and programmers. 
   It works as a simple, high level language that can be easily used by researchers, and easily updated by programmers 
   to meet the specific needs of their coworkers. 
